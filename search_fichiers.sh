@@ -8,4 +8,4 @@ demande_fichier=$(locate -l 1 $dossier)
 
 echo "Voici le répertoire : $dossier"
 echo "$demande_fichier"
-
+find $demande_fichier -name "$1"
