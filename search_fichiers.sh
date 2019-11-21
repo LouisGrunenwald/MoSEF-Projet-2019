@@ -10,6 +10,6 @@ echo "Voici le répertoire : $dossier"
 echo "$demande_fichier"
 var1=$(find $demande_fichier -name "$1")
 echo "$var1"
-var2=$(locate -l $2 $var1)
+var2=$(locate -i $2 $var1)
 echo "$var2"
 
