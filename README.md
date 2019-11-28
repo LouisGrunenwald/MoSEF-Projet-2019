@@ -50,4 +50,4 @@ Il est possible que la ligne de commande ne fonctionne pas dorectement car il es
 
 ## Suppression Consignes.md
 
-[This is an example picture](https://github.com/LouisGrunenwald/MoSEF-Projet-2019/blob/0e5482eeb54059b82148a7b287d8673cdde914ce/Suppression%20consignes.md.png)
+![This is an example picture](https://github.com/LouisGrunenwald/MoSEF-Projet-2019/blob/0e5482eeb54059b82148a7b287d8673cdde914ce/Suppression%20consignes.md.png)
