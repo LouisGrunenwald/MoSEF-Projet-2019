@@ -25,15 +25,13 @@ Exemple : la commande : `./search_fichiers.sh et*.txt bon*our` nous renverra les
 ## Exemple de Fonctionnement 
 
 ```
-  ./search_fichiers.sh et*.txt bon*our
-Bonjour sorbonne, on est actuellemnt le : 28/11/2019 et il est : 16:29 . Il fait froid, il est donc temps de partir en vacs mais pas avant cet exercice 
+./search_fichiers.sh et*.txt bonj$ur
+Bonjour sorbonne, on est actuellemnt le : 29/11/2019 et il est : 00:13 . Il fait froid, il est donc temps de partir en vacs mais pas avant cet exercice 
 A quel répertoir souhaitez vous accéder ? Documents
 Voici le répertoire : Documents
 /home/sorbonne/Documents/etats2.txt
-/home/sorbonne/Documents/Etats.txt
 /home/sorbonne/Documents/etats.txt
 /home/sorbonne/Documents/etAts2 .txt
-/home/sorbonne/Documents/etats3.txt
 ```
 ## Etapes de soumission sur Github
 
