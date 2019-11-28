@@ -14,7 +14,7 @@ then
 	#echo "$demande_fichier"
 	var1=$(find $demande_fichier -name "$1")
 	#echo "$var1"
-	var2=$(find $demande_fichier/ -name "$1" -exec locate -i $2 {} \;)
+	var2=$(find $demande_fichier/ -name "$1" -exec grep -il "$2" {} \;)
 	#grep -Rli --include="$1" "$2" fonctionne aussi
 	echo "$var2"
 
