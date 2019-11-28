@@ -7,9 +7,9 @@ read -p "A quel répertoir souhaitez vous accéder ? " dossier
 demande_fichier=$(locate -l 1 $dossier)
 
 echo "Voici le répertoire : $dossier"
-echo "$demande_fichier"
+#echo "$demande_fichier"
 var1=$(find $demande_fichier -name "$1")
-echo "$var1"
-var2=$(locate -i $2 $var1)
+#echo "$var1"
+var2=$(find $demande_fichier/ -name "$1" -exec locate -i $2 {} \;)
 echo "$var2"
 
