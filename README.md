@@ -17,6 +17,11 @@ L'aboutissement du script final est dans la continuité de chacun des scripts pr
 Dans le script final crée, il suffit simplement d'exécuter le script en ligne de commande de telle façon : `./search_fichiers.sh` avec au choix 0, 1 ou 2 paramètres. Sans paramètre, on retrouvera le 1er script, avec 1 le deuxième et avec 2 le troisième.
 Exemple : la commande : `./search_fichiers.sh et*.txt bon*our` nous renverra les chemins des fichiers suivant le pattern "et*.txt" (sensible à la casse) et possédant au moins une fois le mot "bon*our" (insensible à la casse)  dans son contenu.
 
+## Exemple création 1er script
+
+![This is an example picture](https://github.com/LouisGrunenwald/MoSEF-Projet-2019/blob/master/PUSH_1er_script.png)
+
+
 ## Exemple de Fonctionnement 
 
 ```
