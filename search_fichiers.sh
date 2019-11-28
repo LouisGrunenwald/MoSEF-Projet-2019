@@ -7,9 +7,17 @@ read -p "A quel répertoir souhaitez vous accéder ? " dossier
 demande_fichier=$(locate -l 1 $dossier)
 
 echo "Voici le répertoire : $dossier"
-#echo "$demande_fichier"
-var1=$(find $demande_fichier -name "$1")
-#echo "$var1"
-var2=$(find $demande_fichier/ -name "$1" -exec locate -i $2 {} \;)
-echo "$var2"
 
+if [ -f $(locate "$1") ] || [ -f $dossier/$1 ]
+then 
+
+	#echo "$demande_fichier"
+	var1=$(find $demande_fichier -name "$1")
+	#echo "$var1"
+	var2=$(find $demande_fichier/ -name "$1" -exec locate -i $2 {} \;)
+	#grep -Rli --include="$1" "$2" fonctionne aussi
+	echo "$var2"
+
+else 
+	echo "Ceci est un message d'erreur: le premier argument doit nécessairement être un fichier. Merci de recommencer avec un argument adapté."
+fi
